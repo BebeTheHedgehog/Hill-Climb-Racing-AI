@@ -1,0 +1,33 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    " Hill Climb Racing AI": {
+      "name": " Hill Climb Racing AI",
+      "command": " Hill Climb Racing AI",
+      "runAtStart": true
+    },
+    "draw": {
+      "name": "draw",
+      "command": "draw"
+    },
+    "function preload": {
+      "name": "function preload",
+      "command": "function preload"
+    },
+    "function draw": {
+      "name": "function draw",
+      "command": "function draw"
+    },
+    "Node.js": {
+      "name": "Node.js",
+      "command": "Node.js"
+    },
+    "setupTasks": {
+      "name": "setupTasks",
+      "command": "setupTasks"
+    }
+  }
+}
