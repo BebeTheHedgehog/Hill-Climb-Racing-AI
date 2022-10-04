@@ -206,7 +206,7 @@ listener.EndContact = function(contact) {
 //--------------------------------------------------------------------------------------------------------------------------------------------------
 function preload() {
   CBHeadSprite = loadImage("Pics/CBHead3.png");
-  headSprite = loadImage("Pics/CBHead2.png");
+  headSprite = loadImage("Pics/headLarge.png");
   skySprite = loadImage("Pics/sky.png");
   darknessSprite = loadImage("Pics/darkness.png");
 
