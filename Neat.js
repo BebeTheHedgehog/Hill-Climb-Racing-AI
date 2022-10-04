@@ -880,7 +880,7 @@ var listener = new Box2D.Dynamics.b2ContactListener;
 
 var carSprite;
 var headSprite;
-var cbHead = true;
+var cbHead = random(true,false);
 var wheelSprite;
 var shownGround = false;
 
