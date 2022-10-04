@@ -80,8 +80,8 @@ class Head {
 
     translate(x - panX, y - panY);
     rotate(angle);
-    bob = random(0,1);
-    if (bob === 1) {
+    
+    if (cbHead) {
       image(CBHeadSprite, -this.radius - 7, -this.radius - 15, this.radius * 3, this.radius * 3);
     } else {
       image(headSprite, -this.radius - 8, -this.radius - 15, this.radius * 3, this.radius * 3);
