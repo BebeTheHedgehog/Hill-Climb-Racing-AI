@@ -84,7 +84,7 @@ var nextPanX = 0;
 
 var nextConnectionNo = 1000;
 var population;
-var speed = 60;
+var speed = 40;
 
 
 var showBest = false; //true if only show the best of the previous generation
@@ -118,13 +118,13 @@ var grassSprites = [];
 var otherWorld; // for human, gen replay, species, best
 var worlds = [];
 var grounds = [];
-var numberOfWorlds = 50;
-var playersPerWorld = 15;
+var numberOfWorlds = 25;
+var playersPerWorld = 25;
 
 
 var skySprite;
 var darknessSprite;
-var difficulty = 50;
+var difficulty = 75;
 
 listener.BeginContact = function(contact) {
   let world = contact.GetFixtureA().GetBody().GetWorld();
