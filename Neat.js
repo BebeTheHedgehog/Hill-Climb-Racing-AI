@@ -912,7 +912,7 @@ var nextPanX = 0;
 
 var nextConnectionNo = 1000;
 var population;
-var speed = 60;
+var speed = 40;
 
 
 var showBest = false; //true if only show the best of the previous generation
@@ -946,8 +946,8 @@ var grassSprites = [];
 var otherWorld; // for human, gen replay, species, best
 var worlds = [];
 var grounds = [];
-var numberOfWorlds = 50;
-var playersPerWorld = 15;
+var numberOfWorlds = 10;
+var playersPerWorld = 75;
 
 
 var skySprite;

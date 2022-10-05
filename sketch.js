@@ -84,7 +84,7 @@ var nextPanX = 0;
 
 var nextConnectionNo = 1000;
 var population;
-var speed = 50;
+var speed = 40;
 
 
 var showBest = false; //true if only show the best of the previous generation
