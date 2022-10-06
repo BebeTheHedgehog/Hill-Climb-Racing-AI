@@ -18,7 +18,7 @@ class Car {
     this.carDensity = 1;
     this.carRestitution = 0.01;
     this.maxDistance = 0;
-    this.motorState = 0; //-1 is back and 1 is forward
+    this.motorState = 1; //-1 is back and 1 is forward
 
     // //console.log(this.world);
 
@@ -214,7 +214,7 @@ class Car {
 
 
   motorOn(forward) {
-    var motorSpeed = 13;
+    var motorSpeed = 15;
     this.wheels[0].joint.EnableMotor(true);
     this.wheels[1].joint.EnableMotor(true);
     var oldState = this.motorState;

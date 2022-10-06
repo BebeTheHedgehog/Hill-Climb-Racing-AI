@@ -880,7 +880,7 @@ var listener = new Box2D.Dynamics.b2ContactListener;
 
 var carSprite;
 var headSprite;
-var cbHead = true;
+var cbHead = false;
 var wheelSprite;
 var shownGround = false;
 
@@ -912,7 +912,7 @@ var nextPanX = 0;
 
 var nextConnectionNo = 1000;
 var population;
-var speed = 75;
+var speed = 60;
 
 
 var showBest = false; //true if only show the best of the previous generation

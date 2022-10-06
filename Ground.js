@@ -8,7 +8,7 @@ class Ground {
     this.dirtBody;
     this.grassBody;
 
-    this.distance = 15 * canvas.width;
+    this.distance = 100 * canvas.width;
     this.x = 0;
     this.y = 0;
     this.smoothness = 15; //a vector every
@@ -22,7 +22,7 @@ class Ground {
   }
 
   randomizeGround() {
-    let startingPoint = random(100000);
+    let startingPoint = random(1000000);
 
     let totalDifference = 0;
     for (var i = 0; i < this.distance; i += this.smoothness) {
