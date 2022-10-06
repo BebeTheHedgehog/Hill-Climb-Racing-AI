@@ -299,7 +299,7 @@ function draw() {
     }
   } else
   if (humanPlaying) { //if the user is controling the ship[
-    cbHead = true;
+   
     if (!humanPlayer.dead) { //if the player isnt dead then move and show the player based on input
       otherWorld.Step(1 / 30, 10, 10);
 
@@ -308,7 +308,7 @@ function draw() {
       humanPlayer.look();
 
     } else { //once done return to ai
-      cbHead = false;
+      
       humanPlaying = false;
     }
   } else
