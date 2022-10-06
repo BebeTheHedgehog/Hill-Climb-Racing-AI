@@ -22,7 +22,7 @@ class Ground {
   }
 
   randomizeGround() {
-    let startingPoint = random(1000000);
+    let startingPoint = random(100000);
 
     let totalDifference = 0;
     for (var i = 0; i < this.distance; i += this.smoothness) {
