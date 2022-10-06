@@ -214,7 +214,7 @@ class Car {
 
 
   motorOn(forward) {
-    var motorSpeed = 15;
+    var motorSpeed = 13;
     this.wheels[0].joint.EnableMotor(true);
     this.wheels[1].joint.EnableMotor(true);
     var oldState = this.motorState;
