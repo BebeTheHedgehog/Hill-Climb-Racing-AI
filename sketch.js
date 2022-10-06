@@ -308,7 +308,7 @@ function draw() {
       humanPlayer.look();
 
     } else { //once done return to ai
-      cbHead = false
+      cbHead = false;
       humanPlaying = false;
     }
   } else
