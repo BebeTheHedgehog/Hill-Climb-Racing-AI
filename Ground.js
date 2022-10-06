@@ -8,7 +8,7 @@ class Ground {
     this.dirtBody;
     this.grassBody;
 
-    this.distance = 20 * canvas.width;
+    this.distance = 25 * canvas.width;
     this.x = 0;
     this.y = 0;
     this.smoothness = 15; //a vector every
