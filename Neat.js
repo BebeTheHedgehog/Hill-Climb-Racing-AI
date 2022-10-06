@@ -946,8 +946,8 @@ var grassSprites = [];
 var otherWorld; // for human, gen replay, species, best
 var worlds = [];
 var grounds = [];
-var numberOfWorlds = 35;
-var playersPerWorld = 15;
+var numberOfWorlds = 10;
+var playersPerWorld = 25;
 
 
 var skySprite;
