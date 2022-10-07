@@ -478,18 +478,18 @@ function keyPressed() {
       //toggle showBest
       showBest = !showBest;
       break;
-      // case '+': //speed up frame rate
-      //   speed += 10;
-      //   frameRate(speed);
-      //   prvarln(speed);
-      //   break;
-      // case '-': //slow down frame rate
-      //   if(speed > 10) {
-      //     speed -= 10;
-      //     frameRate(speed);
-      //     prvarln(speed);
-      //   }
-      //   break;
+    case '+': //speed up frame rate
+       speed += 10;
+       frameRate(speed);
+       prvarln(speed);
+       break;
+     case '-': //slow down frame rate
+       if(speed > 10) {
+         speed -= 10;
+         frameRate(speed);
+         prvarln(speed);
+         }
+       break;
     case 'F':
       if (population.gen != 1) {
 
