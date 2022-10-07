@@ -49,7 +49,7 @@ var leftDown = false;
 var rightDown = false;
 var listener = new Box2D.Dynamics.b2ContactListener;
 // var listener2 = new Box2D.Dynamics.b2ContactListener;
-var marioHeadSprite;
+
 var carSprite;
 var headSprite;
 var cbHead = false;
@@ -508,13 +508,13 @@ function keyPressed() {
       }
       break;
     case 'M':
-      if(cbHead == true){
+      if(cbHead){
         cbHead = false;
         marioHead = true;
-      } else if (marioHead == true){
+      } else if (marioHead){
         marioHead = false;
         cbHead = false;
-      } else if (marioHead == false & cbHead == false) {
+      } else if (not(marioHead & cbHead)) {
         cbHead = true;
         marioHead = false;
       }
