@@ -881,6 +881,7 @@ var listener = new Box2D.Dynamics.b2ContactListener;
 var carSprite;
 var headSprite;
 var cbHead = false;
+var marioHead = false;
 var wheelSprite;
 var shownGround = false;
 
@@ -1033,6 +1034,7 @@ listener.EndContact = function(contact) {
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------
 function preload() {
+  marioHeadSprite = loadImage("Pics/mariHead.png");
   CBHeadSprite = loadImage("Pics/CBHead3.png");
   headSprite = loadImage("Pics/largeHead.png");
   skySprite = loadImage("Pics/sky.png");

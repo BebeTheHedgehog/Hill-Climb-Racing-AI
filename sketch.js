@@ -53,6 +53,7 @@ var listener = new Box2D.Dynamics.b2ContactListener;
 var carSprite;
 var headSprite;
 var cbHead = false;
+var marioHead = false;
 var wheelSprite;
 var shownGround = false;
 
@@ -205,6 +206,7 @@ listener.EndContact = function(contact) {
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------
 function preload() {
+  marioHeadSprite = loadImage("Pics/mariHead.png");
   CBHeadSprite = loadImage("Pics/CBHead3.png");
   headSprite = loadImage("Pics/headLarge.png");
   skySprite = loadImage("Pics/sky.png");
@@ -504,6 +506,18 @@ function keyPressed() {
         }
       }
       break;
+    case 'M':
+      if(cbHead == true){
+        cbHead = false;
+        marioHead = true;
+      } else if (marioHead == true){
+        marioHead = false;
+        cbHead = false;
+      } else if (marioHead == false & cbHead == false) {
+        cbHead = true;
+        marioHead = false;
+      }
+      break;  
     case 'B': //run the best
       if (population.gen != 1) {
         runBest = !runBest;
