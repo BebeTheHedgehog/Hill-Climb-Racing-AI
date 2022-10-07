@@ -1034,7 +1034,7 @@ listener.EndContact = function(contact) {
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------
 function preload() {
-  marioHeadSprite = loadImage("Pics/mariHead.png");
+  marioHeadSprite = loadImage("Pics/marioHead.png");
   CBHeadSprite = loadImage("Pics/CBHead3.png");
   headSprite = loadImage("Pics/largeHead.png");
   skySprite = loadImage("Pics/sky.png");
