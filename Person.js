@@ -84,7 +84,7 @@ class Head {
     if (cbHead) {
       image(CBHeadSprite, -this.radius - 7, -this.radius - 15, this.radius * 3, this.radius * 3);
     } else if (marioHead) {
-      image(marioHeadSprite, -this.radius - 7, -this.radius - 15, this.radius * 3, this.radius * 3);
+      image(marioHeadSprite, -this.radius - 9, -this.radius - 15, this.radius * 3, this.radius * 3);
     } else {
       image(headSprite, -this.radius - 8, -this.radius - 15, this.radius * 3, this.radius * 3);
     }
