@@ -49,7 +49,7 @@ var leftDown = false;
 var rightDown = false;
 var listener = new Box2D.Dynamics.b2ContactListener;
 // var listener2 = new Box2D.Dynamics.b2ContactListener;
-
+var marioHeadSprite;
 var carSprite;
 var headSprite;
 var cbHead = false;
