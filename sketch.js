@@ -515,9 +515,11 @@ function keyPressed() {
       } else if (marioHead){
         marioHead = false;
         cbHead = false;
-      } else if (not(marioHead & cbHead)) {
+        largeHead = true;
+      } else if (largeHead) {
         cbHead = true;
         marioHead = false;
+        largeHead = false;
       }
       break;  
     case 'B': //run the best
