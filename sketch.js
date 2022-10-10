@@ -514,8 +514,8 @@ function keyPressed() {
         marioHead = true;
       } else if (marioHead){
         marioHead = false;
-        cbHead = false;
-        largeHead = true;
+        cbHead = true;
+        largeHead = false;
       } else if (largeHead) {
         cbHead = true;
         marioHead = false;
