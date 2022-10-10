@@ -118,6 +118,11 @@ class Torso {
     fixDef.density = 0.002;
     fixDef.friction = 0.01;
     fixDef.restitution = 0.01;
+    if (marioHead){
+      image(marioBodySprite, this.width, this.height)
+      this.body = this.world.CreateBody(bodyDef);
+      this.body.SetUserData(this);
+    } else {
     fixDef.shape = new b2PolygonShape();
     fixDef.shape.SetAsBox(this.width / 2 / SCALE, this.height / 2 / SCALE);
 
@@ -129,7 +134,7 @@ class Torso {
     filtData.categoryBits = PERSON_CATEGORY;
     filtData.maskBits = PERSON_MASK;
     this.body.CreateFixture(fixDef).SetFilterData(filtData);
-
+    }
   }
 
 

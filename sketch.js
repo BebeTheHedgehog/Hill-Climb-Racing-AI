@@ -213,6 +213,7 @@ function preload() {
   skySprite = loadImage("Pics/sky.png");
   darknessSprite = loadImage("Pics/darkness.png");
   marioHeadSprite = loadImage("Pics/marioHead.png");
+  marioBodySprite = loadImage("Pics/marioBody.png");
 
   carSprite = loadImage("Pics/car.png");
   wheelSprite = loadImage("Pics/wheel2.png");

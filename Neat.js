@@ -1040,6 +1040,7 @@ function preload() {
   headSprite = loadImage("Pics/largeHead.png");
   skySprite = loadImage("Pics/sky.png");
   darknessSprite = loadImage("Pics/darkness.png");
+  marioBodySprite = loadImage("Pics/marioBody.png");
 
   carSprite = loadImage("Pics/car.png");
   wheelSprite = loadImage("Pics/wheel2.png");
@@ -1056,7 +1057,7 @@ function preload() {
 function setup() {
   window.canvas = createCanvas(1280, 720);
   canvas.parent("canvas");
-  frameRate(30); //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<FRAME RATE
+  frameRate(50); //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<FRAME RATE
 
 
   groundTemplate = new Ground();
