@@ -54,6 +54,7 @@ var carSprite;
 var headSprite;
 var cbHead = false;
 var marioHead = true;
+var largeHead = false;
 var wheelSprite;
 var shownGround = false;
 

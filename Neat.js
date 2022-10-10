@@ -882,6 +882,7 @@ var carSprite;
 var headSprite;
 var cbHead = false;
 var marioHead = false;
+var largeHead = false;
 var wheelSprite;
 var shownGround = false;
 
