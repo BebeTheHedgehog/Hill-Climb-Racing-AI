@@ -118,13 +118,13 @@ var grassSprites = [];
 var otherWorld; // for human, gen replay, species, best
 var worlds = [];
 var grounds = [];
-var numberOfWorlds = 50;
-var playersPerWorld = 15;
+var numberOfWorlds = 20;
+var playersPerWorld = 10;
 
 
 var skySprite;
 var darknessSprite;
-var difficulty = 50;
+var difficulty = 40;
 
 listener.BeginContact = function(contact) {
   let world = contact.GetFixtureA().GetBody().GetWorld();
