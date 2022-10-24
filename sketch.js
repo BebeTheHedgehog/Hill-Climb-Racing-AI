@@ -86,7 +86,7 @@ var nextPanX = 0;
 
 var nextConnectionNo = 1000;
 var population;
-var speed = 75;
+var speed = 50;
 
 
 var showBest = false; //true if only show the best of the previous generation
@@ -121,7 +121,7 @@ var otherWorld; // for human, gen replay, species, best
 var worlds = [];
 var grounds = [];
 var numberOfWorlds = 10;
-var playersPerWorld = 25;
+var playersPerWorld = 15;
 
 
 var skySprite;
@@ -229,7 +229,7 @@ function preload() {
 function setup() {
   window.canvas = createCanvas(1280, 720);
   canvas.parent("canvas");
-  frameRate(30); //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<FRAME RATE
+  frameRate(50); //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<FRAME RATE
 
 
   groundTemplate = new Ground();
